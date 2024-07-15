@@ -68,7 +68,7 @@ const Testimonials = () => {
   };
 
   return (
-    <div className="py-10 mb-10">
+    <div className="py-10 mb-10 flex justify-center">
       <div className="container">
         {/* header section */}
         <div className="text-center mb-10 max-w-[600px] mx-auto">

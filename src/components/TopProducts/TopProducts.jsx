@@ -29,10 +29,10 @@ const ProductsData = [
 ];
 const TopProducts = () => {
   return (
-    <div>
+    <div className="flex justify-center">
       <div className="container ">
         {/* Header section */}
-        <div className="text-left mb-24">
+        <div className="text-left mb-24 flex flex-col items-center">
           <p data-aos="fade-up" className="text-sm text-primary">
             Top Rated Products for you
           </p>

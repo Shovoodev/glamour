@@ -40,7 +40,7 @@ const FooterLinks = [
 const Footer = () => {
   return (
     <div style={BannerImg} className="text-white">
-      <div className="container">
+      <div className="flex justify-center">
         <div data-aos="zoom-in" className="grid md:grid-cols-3 pb-44 pt-5">
           {/* company details */}
           <div className="py-8 px-4">
